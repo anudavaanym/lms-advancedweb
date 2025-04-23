@@ -47,7 +47,7 @@ class SolutionController extends Controller
         
         $validated = $request->validate([
             'points' => 'required|integer|min:0|max:' . $solution->task->points,
-            'evaluation' => 'required|string',
+            'evaluation' => 'nullable|string',
         ]);
         
         $solution->update($validated);
