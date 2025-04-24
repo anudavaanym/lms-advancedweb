@@ -18,7 +18,7 @@
                 <label class="block text-gray-700 text-sm font-bold mb-2" for="name">
                     Task Name <span class="text-red-500">*</span>
                 </label>
-                <input id="name" type="text" name="name" value="{{ old('name', $task->name) }}" required 
+                <input id="name" type="text" name="name" value="{{ old('name', $task->name) }}" required minlength="5"
                     class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline @error('name') border-red-500 @enderror" />
                 @error('name')
                     <p class="text-red-500 text-sm mt-1">{{ $message }}</p>
@@ -40,9 +40,9 @@
             <!-- Points -->
             <div class="mb-6">
                 <label class="block text-gray-700 text-sm font-bold mb-2" for="points">
-                    Points <span class="text-red-500">*</span>
+                    Points 
                 </label>
-                <input id="points" type="number" name="points" value="{{ old('points', $task->points) }}" required min="1" max="100"
+                <input id="points" type="number" name="points" value="{{ old('points', $task->points) }}" min="1" max="100"
                     class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline @error('points') border-red-500 @enderror" />
                 @error('points')
                     <p class="text-red-500 text-sm mt-1">{{ $message }}</p>

@@ -114,29 +114,5 @@
             </div>
         </div>
     </div>
-
-    <!-- Announcements Section -->
-    <div class="mt-6 bg-white rounded-lg shadow-md">
-        <div class="p-4 border-b">
-            <h2 class="text-xl font-semibold">Announcements</h2>
-        </div>
-        <div class="p-4">
-            <div class="mb-4 pb-4 border-b flex justify-between">
-                <div>
-                    <div class="font-medium">No class on Friday</div>
-                    <div class="text-sm text-gray-500">Web Development</div>
-                </div>
-                <div class="text-sm text-gray-500">Oct 12</div>
-            </div>
-            
-            <div class="mb-4 pb-4 border-b flex justify-between">
-                <div>
-                    <div class="font-medium">Extra office hours next week</div>
-                    <div class="text-sm text-gray-500">Data Structures</div>
-                </div>
-                <div class="text-sm text-gray-500">Oct 10</div>
-            </div>
-        </div>
-    </div>
 </div>
 @endsection

@@ -136,11 +136,11 @@
                             </div>
                         </div>
                         <div class="ml-4">
-                            <h3 class="font-bold text-lg text-indigo-800">Sarah Johnson</h3>
+                            <h3 class="font-bold text-lg text-indigo-800">Anu Davaanyam</h3>
                             <p class="text-sm text-indigo-500">Teacher</p>
                         </div>
                     </div>
-                    <p class="italic text-gray-700 mb-6">"This LMS has transformed how I manage my courses. The intuitive interface and powerful features make teaching a breeze."</p>
+                    <p class="italic text-gray-700 mb-6">"This LMS has transformed how I manage my courses. I can see my students and their submission much easier. Also, I can evaluate their submission too!"</p>
                     <div class="flex mt-auto">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-yellow-500" viewBox="0 0 20 20" fill="currentColor">
                             <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
@@ -176,11 +176,11 @@
                             </div>
                         </div>
                         <div class="ml-4">
-                            <h3 class="font-bold text-lg text-indigo-800">Michael Chen</h3>
+                            <h3 class="font-bold text-lg text-indigo-800">Lee Jiwon</h3>
                             <p class="text-sm text-indigo-500">Student</p>
                         </div>
                     </div>
-                    <p class="italic text-gray-700 mb-6">"As a student, I love how easy it is to keep track of my assignments and communicate with my teachers. This platform has improved my academic performance."</p>
+                    <p class="italic text-gray-700 mb-6">"As a student, I love how easy it is to keep track of my assignments and enrolling for a subject or leaving."</p>
                     <div class="flex mt-auto">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-yellow-500" viewBox="0 0 20 20" fill="currentColor">
                             <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
@@ -216,11 +216,11 @@
                             </div>
                         </div>
                         <div class="ml-4">
-                            <h3 class="font-bold text-lg text-indigo-800">Emily Rodriguez</h3>
+                            <h3 class="font-bold text-lg text-indigo-800">John Doe</h3>
                             <p class="text-sm text-indigo-500">Administrator</p>
                         </div>
                     </div>
-                    <p class="italic text-gray-700 mb-6">"Managing our institution's educational resources has never been easier. The analytics and reporting features provide valuable insights for our decision-making."</p>
+                    <p class="italic text-gray-700 mb-6">"Managing our institution's educational resources has never been easier."</p>
                     <div class="flex mt-auto">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-yellow-500" viewBox="0 0 20 20" fill="currentColor">
                             <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />

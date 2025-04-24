@@ -30,6 +30,7 @@
                 <p><span class="font-semibold">Credit Value:</span> {{ $subject->credit_value }}</p>
                 <p><span class="font-semibold">Created:</span> {{ $subject->created_at->format('Y-m-d H:i') }}</p>
                 <p><span class="font-semibold">Last Updated:</span> {{ $subject->updated_at->format('Y-m-d H:i') }}</p>
+                <p><span class="font-semibold">Students:</span> {{ $subject->students->count() }}</p>
             </div>
             <div>
                 <h2 class="text-xl font-semibold mb-2">Description</h2>

@@ -40,15 +40,15 @@
                     </div>
                 </div>
                 
-                <form action="{{ route('solutions.evaluate', $solution) }}" method="POST" class="mt-6">
+                <form action="{{ route('solutions.evaluate', $solution) }}" method="POST" class="mt-6" novalidate>
                     @csrf
                     @method('PUT')
                     
                     <div class="mb-4">
-                        <label class="block text-gray-700 text-sm font-bold mb-2" for="evaluation">
+                        <label class="block text-gray-700 text-sm font-bold mb-2" for="evaluation" >
                             Update Feedback
                         </label>
-                        <textarea id="evaluation" name="evaluation" rows="4" required
+                        <textarea id="evaluation" name="evaluation" rows="4" 
                             class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline @error('evaluation') border-red-500 @enderror">{{ old('evaluation', $solution->evaluation) }}</textarea>
                         @error('evaluation')
                             <p class="text-red-500 text-sm mt-1">{{ $message }}</p>
@@ -69,15 +69,15 @@
                     <button type="submit" class="btn btn-primary">Update Evaluation</button>
                 </form>
             @else
-                <form action="{{ route('solutions.evaluate', $solution) }}" method="POST">
+                <form action="{{ route('solutions.evaluate', $solution) }}" method="POST" novalidate>
                     @csrf
                     @method('PUT')
                     
                     <div class="mb-4">
                         <label class="block text-gray-700 text-sm font-bold mb-2" for="evaluation">
-                            Feedback <span class="text-red-500">*</span>
+                            Feedback 
                         </label>
-                        <textarea id="evaluation" name="evaluation" rows="4" required
+                        <textarea id="evaluation" name="evaluation" rows="4" 
                             class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline @error('evaluation') border-red-500 @enderror">{{ old('evaluation') }}</textarea>
                         @error('evaluation')
                             <p class="text-red-500 text-sm mt-1">{{ $message }}</p>

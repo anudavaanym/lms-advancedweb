@@ -21,6 +21,7 @@
                 <thead>
                     <tr>
                         <th>Subject Name</th>
+                        <th>Description</th>
                         <th>Subject Code</th>
                         <th>Credit Value</th>
                         <th>Students</th>
@@ -33,8 +34,9 @@
                             <td>
                                 <a href="{{ route('subjects.show', $subject) }}" class="font-medium text-blue-600 hover:underline">
                                     {{ $subject->name }}
-                                </a>
+                                </a> 
                             </td>
+                            <td>{{ $subject->description }}</td>
                             <td>{{ $subject->subject_code }}</td>
                             <td>{{ $subject->credit_value }}</td>
                             <td>{{ $subject->students->count() }}</td>
